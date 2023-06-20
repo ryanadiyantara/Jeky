@@ -2,4 +2,10 @@
 <resources>
 
     <style name="Theme.Jeky" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.JekySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/jeky_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Jeky</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimationDuration">5000</item>
+    </style>
 </resources>
